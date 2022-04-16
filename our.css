@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+    background: rgb(196, 194, 194);
+    color: #1f2124;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    /* font: 'Roboto', sans-serif 16px 20px */
+   
+}
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.info {
+    display: flex;
+}
+.container {
+max-width: 800px;
+margin: auto;
+padding-top: 30px;
+
+}
+
+
+
+.avtr {
+    width: 250px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 14px rgb(0, 0, 0.80) ;
+
+
+}
+
+.info-text{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.info-text h2 {
+    width: 200px;
+    margin-bottom: 25px;
+    box-shadow: 4px 4px 14px rgb(58, 48, 48);
+    border-style: solid;
+    border-radius: 50px;
+    padding: 5px 5px;
+    border-width: 1px;
+    text-align: center;
+}
+.info-text p {
+    font-weight: bold;
+    font-style: italic;
+    color: #0f1115;
+    background: #ddd;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}
+.hobby {
+    background: #dadcde;
+    color: #2f3543; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hobby ol {
+    padding-left: 20px;
+}
+.hobby h3 {
+    margin-bottom: 10px;
+}
+.hobby li {
+    margin-bottom: 10px;
+    }
+.dream {
+    background: rgb(120, 197, 205);
+    color: rgb(85, 72, 72);
+    margin-bottom: 10px;
+    margin: 10px 10px;
+}
+
+.work {
+    background: #d0e0ea;
+    color: #050606;
+    margin: 10px 10px;
+}
+.work h3 {
+    padding-left: 30%;
+}
+.work td {
+    padding-bottom: 5px;
+    width: 5%;
+    margin-bottom: 10px;
+}
+.work tr {
+    padding-bottom: 20px;
+}
+.card {
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+.work td:nth-child(2){
+    color: rgb(109, 108, 108);
+}
+.work td:nth-child(3){
+color: rgb(109, 108, 108);
+}
+.cours {
+    border: #000;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    background: #a9daeb;
+    margin: 10px;
+    padding: 15px 10px;
+}
+.cours h3 {
+    padding-bottom: 15px;
+    color: #3d3f42;
+}
+.cour {
+    text-decoration: none;
+    color: rgb(6, 0, 0);
+}
+.site {
+    background: #ddd;
+    color: rgb(35, 31, 31);
+    margin-bottom: 10px;
+    border: 1px solid #444;
+}
+
+.site h4{
+    margin-bottom: 20px;
+    padding-left: 2px;
+
+}
+
+.btn {
+    background: rgb(51, 16, 165);
+    color: white;
+    padding: 5px 5px;
+    border-radius: 15px;
+    font-family: 'Roboto';
+}
+.btn:hover {
+    opacity: .8;
+    background-color: rgb(57, 59, 147);
+    color: rgb(250, 252, 250);
+}
+.btn:visited {
+    background-color: gray;
+    color: rgb(250, 252, 250);
+    opacity: .8;
+}
+.ssl {
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 15px;
+    color: rgb(221, 205, 181);
+    border-width: 2px;
+    
+}
+.img {
+   width: 20px;
+}
+.ssl1:hover {
+    color: #0078ff;
+    box-shadow: -3px 0px 7px rgb(0, 0, 0.40) 
+    
+}
+.ssl2:hover {
+    color: #f23461;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0.40) 
+}
+.ssl3:hover {
+    color: #47b0d3;
+    box-shadow: 3px 0px 7px rgb(0, 0, 0.40) 
+}
+.ssl1 {
+    padding: 10px 5px 1px 5px;
+    background: #ffffff;
+}
+.ssl2 {
+    padding: 10px 5px 1px 5px;
+    background: #ffffff;
+}
+.ssl3 {
+    padding: 10px 5px 1px 5px;
+    background: #ffffff;
+}
+.call {
+    margin: 10px;
+    background: rgb(226, 225, 225);
+}
+.call h3{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.form label {
+    display: block;
+    font-size: 15px;
+}
+.form input,
+.form textarea {
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #aaa;
+    outline: none;
+    padding: 10px 0px 5px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+    margin-bottom: 20px;
+}
+
+.row .form {
+    display: inline-block;
+    margin-right: 20px;
+    width: calc(50% - 30px);
+
+}
+@media (max-width: 600px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+    .info-text h2 {
+        width: auto;
+    }
+    .row .form {
+        display: block;
+        width: auto;
+    }
+ }
+ 

@@ -128,6 +128,10 @@ color: rgb(109, 108, 108);
     text-decoration: none;
     color: rgb(6, 0, 0);
 }
+.cour:hover {
+    color: rgb(165, 73, 73);
+    text-decoration: underline;
+}
 .site {
     background: #ddd;
     color: rgb(35, 31, 31);
